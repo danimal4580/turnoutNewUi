@@ -1,0 +1,15 @@
+
+<ion-view title="Map" id="page15" class=" " style="width:100% ; height:100%">
+<div map-lazy-load="https://maps.google.com/maps/api/js">
+   <ng-map zoom="16" center= "{{address}}" style="height:95%;">
+  <marker position="{{address}}" />
+  <!-- <shape name="circle" radius="400" center="{{address}}" radius="4000" /> -->
+  <control name="overviewMap" opened="true" />
+</ng-map>` 
+</div>
+    <ion-content padding="true" class="has-header"></ion-content>
+</ion-view>
+
+<!-- <div map-lazy-load="https://maps.google.com/maps/api/js">
+  <ng-map center="41,-87" zoom="3"></ng-map>
+</div> -->

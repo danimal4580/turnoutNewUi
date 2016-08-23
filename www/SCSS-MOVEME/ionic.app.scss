@@ -1,0 +1,189 @@
+$balanced: #B9E7B9;
+$energized: #FFAD00;
+$dark: #040404;
+$positive: #A591EE;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.short {
+	width: 50% !important;
+}
+
+.turnoutgreen {
+	background-color: #9DEDD8 !important;
+}
+
+.shorter {
+	width: 33% !important;
+}
+
+.stop {
+	width: 66% !important;
+}
+
+.poop {
+	display: inline-block !important;
+}
+
+.words {
+	text-align: center;
+}
+
+.lines {
+	border: none;
+}
+
+.seventyfive {
+	width: 75%;
+}
+
+.food {
+	background-color: #ff99e6 !important;
+}
+
+.sports {
+	background-color: #ffc2b3 !important;
+}
+
+.career {
+	background-color: #d699ff !important;
+}
+
+.cultural {
+	background-color: #ffffcc !important;
+}
+
+.service {
+	background-color: #b3c6ff !important;
+}
+
+.school {
+	background-color: #d9d9d9 !important;
+}
+
+.greek {
+	background-color: #c6ffb3 !important;
+}
+
+.arts {
+	background-color: #ff9999 !important;
+}
+
+.nightlife {
+	background-color: #ffaa80 !important;
+}
+
+.other {
+	background-color: #99ccff !important;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.royal {
+	background-color: #886AEA;
+}
+
+.float {
+	float: right !important;
+}
+
+.left {
+	float: left;
+}
+
+.headercolor {
+	background-color: #dbd3f8;
+}
+
+.boxshadow {
+	box-shadow: 5px 5px #d3d3d3;
+}
+
+.dog {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #5c5cd6;
+}
+
+.dogaw {
+	border-width: 6px;
+	border-style: solid;
+	border-color: #9FEBD7;
+	border-bottom: none;
+}
+
+.white {
+	background-color: white;
+}
+
+.edges {
+	border-radius: 25px;
+}
+
+.round {
+	border-radius: 20px}
+.size {
+	font-size: 24px;
+}
+
+.element {
+	border-top: none;
+}
+
+.zero {
+	top: 7px;
+}
+
+.full {
+	width: 100% !important;
+}
+
+.heightshorter {
+	height: 95% !important;
+}
+
+.sizesmall {
+	font-size: 22px !important;
+}
+
+.medshort {
+	width: 40% !important;
+}
+
+.sevenfiveshort {
+	width: 60% !important;
+}
+
+.saveheight {
+	height: 120% !important;
+}
+
+ion-view,.pane,.view {
+	background-color: #9FEBD7;
+}
+
+body {
+	color: #050505;
+}
+
+body.platform-ios {
+	font-family: 'Poppins', sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: 'Poppins', sans-serif;
+}
+
+body.platform-android {
+	font-family: 'Poppins', sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+

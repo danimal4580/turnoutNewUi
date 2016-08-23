@@ -1,0 +1,15 @@
+<ion-view title="Category Feed" id="page11">
+    <ion-content padding="true" class="has-header">
+        <h1 id="categoryFeed-heading5" style="color:#000000;" class=" words headercolor dog">{{category}}</h1>
+         <div class="list card " id="home-card29" ng-repeat="event in events">
+            <ion-item id="home-list-item81" ng-click="move($index)" class="  words title">{{event.name}}</ion-item>
+            <div id="home-markdown16" style="color:#000000;"  ng-click="move($index)" class=" words">
+                <p>{{event.description}}</p>
+            </div>
+            <ion-item id="home-list-item112" ng-click="move($index)" class="  medshort poop words float">{{event.time | date: "shortTime"}}</ion-item>
+            <ion-item id="home-list-item122" ng-click="move($index)" class="  sevenfiveshort poop words">{{event.date | date }}</ion-item>
+            <ion-item id="home-list-item113" class="  shorter  poop  lines float  title  size zero">{{event.likes}}</ion-item>
+            <button id="home-button60" style="color:#FFFFFF;border-radius:2px 2px 2px 2px;" class=" button button-positive  icon ion-heart words poop   edges short" ng-click="save($index)">{{status}}</button>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,39 @@
+<ion-view title="Home" hide-back-button="true" id="page5">
+    <ion-content padding="true" class="has-header">
+        <div id="home-button-bar7" class=" button-bar ">
+            <button id="home-button28" class=" button button-positive  button-block ">You</button>
+            <a ui-sref="page1.home3" id="home-button22" class=" button button-stable  button-block ">Hot</a>
+            <a ui-sref="page1.home2" id="home-button24" class=" button button-stable  button-block ">Soon</a>
+        </div>
+        <div class="list card " id="home-card29" ng-repeat="event in events">
+            <ion-item id="home-list-item81" ng-click="move($index)" class="  words title">{{event.name}}</ion-item>
+            <div id="home-markdown16" style="color:#000000;"  ng-click="move($index)" class=" words">
+                <p>{{event.description}}</p>
+            </div>
+            <ion-item id="home-list-item112" ng-click="move($index)" class="  medshort poop words float">{{event.time | date: "shortTime"}}</ion-item>
+            <ion-item id="home-list-item122" ng-click="move($index)" class="  sevenfiveshort poop words">{{event.date | date }}</ion-item>
+            <ion-item id="home-list-item113" class="  shorter  poop  lines float  title  size zero">{{event.likes}}</ion-item>
+            <button id="home-button60" style="color:#FFFFFF;border-radius:2px 2px 2px 2px;" class=" button button-positive  icon ion-heart words poop   edges short" ng-click="save($index)">{{status}}</button>
+        </div>
+        <!-- <div class="list card " id="home-card25">
+            <ion-item id="home-list-item124" ui-sref="page1.event" class="  words title">Cool Kid After Party!! :D</ion-item>
+            <div id="home-markdown19" style="color:#000000;" class=" words">
+                <p>Only Cool Kids here at this event</p>
+            </div>
+            <ion-item id="home-list-item125" ui-sref="page1.event" class="  medshort poop words float">6:35</ion-item>
+            <ion-item id="home-list-item126" ui-sref="page1.event" class="  sevenfiveshort poop words">Dec 21, 2016</ion-item>
+            <ion-item id="home-list-item127" class="  shorter  poop  lines float  title  size zero">0</ion-item>
+            <button id="home-button103" style="color:#FFFFFF;border-radius:2px 2px 2px 2px;" class=" button button-positive  icon ion-heart words poop   edges short">save</button>
+        </div>
+        <div class="list card " id="home-card24">
+            <ion-item id="home-list-item118" ui-sref="page1.event" class="  words title">A&amp;O Blowout Dance</ion-item>
+            <div id="home-markdown18" style="color:#000000;" class=" words">
+                <p>This is a really great event about some really great things</p>
+            </div>
+            <ion-item id="home-list-item119" ui-sref="page1.event" class="  medshort poop words float">6:30</ion-item>
+            <ion-item id="home-list-item121" ui-sref="page1.event" class="  sevenfiveshort poop words">Dec 21, 2016</ion-item>
+            <ion-item id="home-list-item123" class="  shorter  poop  lines float  title  size zero">0</ion-item>
+            <button id="home-button102" style="color:#FFFFFF;border-radius:2px 2px 2px 2px;" class=" button button-positive  icon ion-heart words poop   edges short">save</button>
+        </div> -->
+    </ion-content>
+</ion-view>
